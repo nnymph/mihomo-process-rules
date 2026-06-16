@@ -1,0 +1,39 @@
+# behavior: classical
+payload:
+  # Steam Launcher & Web Helper
+  - PROCESS-NAME,steam.exe
+  - PROCESS-NAME,steamwebhelper.exe
+  - PROCESS-NAME,SteamService.exe
+  
+  # Epic Games
+  - PROCESS-NAME,EpicGamesLauncher.exe
+  - PROCESS-NAME,EpicWebHelper.exe
+  
+  # EA Desktop & Origin
+  - PROCESS-NAME,EADesktop.exe
+  - PROCESS-NAME,EABackgroundService.exe
+  - PROCESS-NAME,Origin.exe
+  
+  # Ubisoft Connect
+  - PROCESS-NAME,upc.exe
+  - PROCESS-NAME,UbisoftConnect.exe
+  
+  # GOG Galaxy
+  - PROCESS-NAME,GalaxyClient.exe
+  - PROCESS-NAME,GalaxyService.exe
+  
+  # Battle.net (Blizzard Agent)
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,Agent.exe
+  
+  # Riot Games Client
+  - PROCESS-NAME,RiotClientServices.exe
+  
+  # Rockstar Games Launcher
+  - PROCESS-NAME,Launcher.exe
+  - PROCESS-NAME-REGEX,(?i).*Rockstar.*
+  - PROCESS-NAME-REGEX,(?i).*SocialClub.*
+  
+  # GeForce NOW (Облачный гейминг)
+  - PROCESS-NAME,GeForceNOW.exe
+  - PROCESS-NAME,GeForceNOWStreamer.exe
