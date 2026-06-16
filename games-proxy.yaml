@@ -1,0 +1,7 @@
+payload:
+  # Supercell (Блокировка доступа из РФ)
+  - PROCESS-NAME-REGEX,(?i).*BrawlStars.*
+  - PROCESS-NAME-REGEX,(?i).*ClashofClans.*
+  - PROCESS-NAME-REGEX,(?i).*Supercell.*
+  # Вымышленный пример заблокированного исполняемого файла игры
+  - PROCESS-NAME,blocked-game-example.exe
