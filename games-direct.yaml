@@ -1,4 +1,6 @@
 payload:
+  - PROCESS-NAME,gamingservices.exe
+  
   # Unreal Engine games
   - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
 
