@@ -198,6 +198,7 @@ payload:
   - PROCESS-NAME,bg3.exe
   - PROCESS-NAME,bg3_dx11.exe
   - PROCESS-NAME,ForzaHorizon5.exe
+  - PROCESS-NAME,ForzaHorizon6.exe
   - PROCESS-NAME,Warthunder.exe
   - PROCESS-NAME,WorldOfTanks.exe
 
