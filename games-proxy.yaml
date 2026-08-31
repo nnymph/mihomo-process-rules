@@ -4,5 +4,6 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*ClashofClans.*
   - PROCESS-NAME-REGEX,(?i).*Supercell.*
   - PROCESS-NAME,Ascension.exe
+  - PROCESS-NAME,AscensionClientServices.exe
   # Вымышленный пример заблокированного исполняемого файла игры
   - PROCESS-NAME,blocked-game-example.exe
